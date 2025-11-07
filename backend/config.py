@@ -1,0 +1,2 @@
+W_DENSE = 0.00
+W_SPARSE = 1.00
