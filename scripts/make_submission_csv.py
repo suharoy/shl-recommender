@@ -8,8 +8,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_PATH = BASE_DIR / "data" / "Gen_AI Dataset.xlsx"
 OUTPUT_PATH = BASE_DIR / "data" / "submission.csv"
 API_URL = "http://localhost:8000/recommend"
-
-# Ensure data directory exists
 OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 # Load test queries

@@ -5,7 +5,7 @@ import pandas as pd
 
 st.set_page_config(page_title="SHL Recommender", layout="centered")
 
-st.title("🧠 SHL Assessment Recommender")
+st.title("SHL Assessment Recommender")
 st.write("Enter a job description or query to get top SHL assessments.")
 
 query = st.text_area("Job Description / Query", height=200)
