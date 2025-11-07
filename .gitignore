@@ -1,0 +1,22 @@
+# Ignore Python virtual environments
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore notebooks cache
+.ipynb_checkpoints/
+
+# Ignore data binaries
+*.faiss
+*.pkl
+*.jsonl
+*.bin
+
+# Ignore temporary files
+*.zip
+*.log
