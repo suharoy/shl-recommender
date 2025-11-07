@@ -10,6 +10,7 @@ An intelligent recommendation system that maps natural-language job descriptions
 - `scripts/` – Utilities for submission CSV
 
 ## Run Locally
-```bash
+pip install -r requirements.txt
+
 uvicorn backend.app:app --reload
 streamlit run frontend/app.py
