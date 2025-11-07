@@ -10,7 +10,7 @@ torch==2.2.2
 nltk==3.9.1
 
 # Retrieval & ranking
-faiss-cpu==1.9.0.post1
+faiss==1.9.0.post1
 rank-bm25==0.2.2
 
 # Data & utilities
