@@ -6,7 +6,9 @@ streamlit==1.36.0
 # NLP & embeddings
 sentence-transformers==2.5.1
 transformers==4.39.3
-torch==2.2.2
+torch==2.1.2
+--extra-index-url https://download.pytorch.org/whl/cpu
+
 nltk==3.9.1
 
 # Retrieval & ranking
