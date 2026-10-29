@@ -20,3 +20,15 @@ Thumbs.db
 # Ignore temporary files
 *.zip
 *.log
+
+# Python environments
+.venv/
+
+# Python tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor settings
+.vscode/
+.idea/
